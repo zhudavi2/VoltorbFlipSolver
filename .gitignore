@@ -1,0 +1,10 @@
+[Dd]ebug/
+[Rr]elease/
+x86/
+build/
+[Bb]in/
+[Oo]bj/
+
+*.sdf
+*.suo
+*.user
