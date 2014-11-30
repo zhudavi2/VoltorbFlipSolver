@@ -15,24 +15,21 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="VoltorbFlipGrid.cpp">
+    <ClCompile Include="VoltorbFlipGridTest.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="VoltorbFlipGridDllWrapper.cpp">
+    <ClCompile Include="..\VoltorbFlipGridSolver\VoltorbFlipGridSolver.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="VoltorbFlipProbabilities.cpp">
+    <ClCompile Include="..\VoltorbFlipGridSolver\VoltorbFlipGrid.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="VoltorbFlipGrid.h">
+    <ClInclude Include="..\VoltorbFlipGridSolver\VoltorbFlipGrid.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="VoltorbFlipGridDllWrapper.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="VoltorbFlipProbabilities.h">
+    <ClInclude Include="..\VoltorbFlipGridSolver\VoltorbFlipGridSolver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

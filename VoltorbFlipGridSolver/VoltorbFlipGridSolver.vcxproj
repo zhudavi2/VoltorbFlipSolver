@@ -21,6 +21,7 @@
   <PropertyGroup Label="Globals">
     <ProjectGuid>{68BD98E9-8B0D-4425-A229-2896609A3E1B}</ProjectGuid>
     <RootNamespace>VoltorbFlipGrid</RootNamespace>
+    <ProjectName>VoltorbFlipGridSolver</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -120,14 +121,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="VoltorbFlipGridSolver.cpp" />
     <ClCompile Include="VoltorbFlipGrid.cpp" />
     <ClCompile Include="VoltorbFlipGridDllWrapper.cpp" />
-    <ClCompile Include="VoltorbFlipProbabilities.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="VoltorbFlipGridSolver.h" />
     <ClInclude Include="VoltorbFlipGrid.h" />
     <ClInclude Include="VoltorbFlipGridDllWrapper.h" />
-    <ClInclude Include="VoltorbFlipProbabilities.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
